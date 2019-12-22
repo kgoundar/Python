@@ -1,8 +1,28 @@
 {
+    "_comment": "C:\\Users\\goundark\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+    "_comment2": "C:\\Users\\us_cr\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "C:\\Users\\goundark\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+    "python.pythonPath": "C:\\Users\\us_cr\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
+    },
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "git.enableSmartCommit": true,
+    "macros": {
+        "accept.": [
+            "acceptSelectedSuggestion",
+            {"command": "type", "args": {"text": "."}}
+        ],
+        "accept(": [
+            "acceptSelectedSuggestion",
+            {"command": "type", "args": {"text": "("}}
+        ],        
+        "accept=": [
+            "acceptSelectedSuggestion",
+            {"command": "type", "args": {"text": "="}}
+        ]
     }
+
 }
